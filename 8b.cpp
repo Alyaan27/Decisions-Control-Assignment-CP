@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main(){
+int income;
+cout<<"income(pkr): ";
+cin>>income;
+if 
+(income<50000)
+cout<<"lower class";
+else if
+(income<=100000)
+cout<<"middle class";
+else if 
+(income<=1000000)
+cout<<"upper class";
+else
+cout<<"elite class";
+return 0;
+}

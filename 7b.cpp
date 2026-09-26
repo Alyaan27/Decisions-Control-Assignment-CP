@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main(){
+int weight;
+cout<<"weight(kg): ";
+cin>>weight;
+if 
+(weight<50)
+cout<<"under weight";
+else if
+(weight<=80)
+cout<<"normal weight";
+else if 
+(weight<=200)
+cout<<"over weight";
+else
+cout<<"obeesed";
+return 0;
+}

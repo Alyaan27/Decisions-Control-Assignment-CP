@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main(){
+double num1,num2;
+char op;
+cout<<"enter number 1: ";
+cin>>num1;
+cout<<"enter operation (+,-,*,/): ";
+cin>>op;
+cout<<"enter number 2: ";
+cin>>num2;
+if(op == '+')
+{cout<<"result: "<<num1+num2;
+}
+else if
+(op == '-'){
+
+cout<<"result: "<<num1-num2;
+}
+else if (op == '*')
+{cout<<"product: "<<num1*num2;
+
+}
+else if (op == '/' )
+{cout<<"result: "<<num1/num2;
+
+}else cout<<"enter valid number";
+return 0;
+}

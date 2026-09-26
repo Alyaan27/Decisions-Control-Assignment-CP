@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+int temp;
+cout<<"temperature: ";
+cin>>temp;
+if
+(temp<20)
+cout<<"cold";
+else if
+(temp<30)
+cout<<"normal";
+else
+cout<<"hot";
+}
